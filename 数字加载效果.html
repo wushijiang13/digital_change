@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数字加载效果</title>
+</head>
+
+<body>
+    <div class="show">
+        <span  id="c1">21231321</span><span>元</span>
+        <span id="c2">16597842</span><span>元</span>
+    </div>
+</body>
+<script src="js/digital_change.min.js"></script>
+<script>
+    var spans=document.getElementById("c1");
+    var span2=document.getElementById("c2");
+    var span3=[spans,span2];
+    var shows=[];
+    for (var i = 0; i < span3.length; i++) {
+        shows.push(parseInt(span3[i].innerText));
+    }
+        _wu.seconds_Loading_Thousand_Points(span3,shows);
+</script>
+</html>
