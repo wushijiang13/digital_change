@@ -1,12 +1,13 @@
 # digital_change.js v1.0.2版本
-自己封装的一个数字加载的第三方库 Encapsulated a digitally loaded third-party library
+数字加载的第三方库 Encapsulated a digitally loaded third-party library
 
-本地引入方式:
+## 本地引入方式:
+
 ```
 <script src="./js/digital_change.min.js"></script>
 ```
 
-食用方法：
+## 食用方法：
 ```
 _wu.seconds_Loading_Thousand_Points(numberDom: array,allNumValues: array,totalSeconds: number,seconds: number);
 ```
